@@ -1,0 +1,40 @@
+body{
+    overflow:hidden;
+}
+.carousel-item img {
+    height:100vh;
+    margin-top: 0;
+    top:0;
+}
+
+.navbar{
+    opacity: 0.8;
+}
+
+.button-hovered{
+    background-color: black;
+    color:#FFC0CB!important;
+}
+
+.nav-item{
+    display: flex;
+    flex-direction: column;
+    :hover{
+        color:white!important;
+        background-color: black;
+    }
+    .nav-link{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        text-align: center!important;
+        height:7vh;
+        width: 15vh;
+        :hover{
+            color:white!important;
+            background-color: black;
+        }
+    }
+}
